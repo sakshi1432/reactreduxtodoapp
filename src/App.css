@@ -1,0 +1,101 @@
+
+
+
+.App {
+  text-align: center;
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.title{
+  color: white;
+  font-size: 15px;
+}
+.u{
+  position: relative;
+}
+
+/* input{
+  border-radius: 5px;
+width: 100%;
+  padding: 5px;
+ 
+}
+input::placeholder{
+  font-size: 13px;
+  color: black;
+}
+*/
+.buttonIn {
+
+  position: relative;
+}
+
+input {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+  padding: 8px;
+}
+input::placeholder{
+  font-size: 13px;
+  color: black;
+}
+.add {
+  position: absolute;
+  border-radius: 5px;
+  right: 0px;
+  z-index: 2;
+  border: none;
+  top: -7px;
+  height: 30px;
+  cursor: pointer;
+  color: black;
+  background-color: transparent;
+  transform: translateX(2px);
+  font-size: 26px;
+}
+
+
+
+
+.deleteicon{
+ position: absolute;
+ top: 7px;
+            border-radius: 5px;
+            right: 16px;
+            z-index: 2;
+            border: none;
+        
+            height: 30px;
+            cursor: pointer;
+            color: white;
+          
+            transform: translateX(2px);
+ color: yellow;
+}
+.g{
+  background-color: 	#BF40BF;
+  color: white;
+ padding: 7px;
+position: relative;
+  border-radius: 3px;
+}
+.g:hover{
+  background-color: white;
+}
